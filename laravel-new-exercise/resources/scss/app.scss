@@ -1,0 +1,12 @@
+@use "bootstrap/scss/bootstrap" as *;
+
+header,
+footer {
+    height: 100px;
+    background-color: black;
+}
+
+
+.felony {
+    font-size: small;
+}

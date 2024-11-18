@@ -10,7 +10,7 @@ class WantedController extends Controller
 {
     public function index()
     {
-        $wanted = Wanted::all();
+        $wanted = Wanted::with("felonies", "device")->get();
         return response()->json([
             "success" => true,
             "results" => $wanted,

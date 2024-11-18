@@ -1,5 +1,7 @@
 <?php
 
+use App\Http\Controllers\api\WantedController;
+use App\Models\Wanted;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
